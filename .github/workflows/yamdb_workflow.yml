@@ -51,8 +51,7 @@ jobs:
           username: ${{ secrets.USER }}
           key: ${{ secrets.SSH_KEY }}
           script: |
-            sudo docker-compose stop
-            sudo docker-compose rm web
+            sudo docker-compose down -v
             sudo docker image rm lllleeenna/api_yamdb-1_web:latest
             sudo rm .env
             touch .env
