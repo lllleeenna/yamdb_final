@@ -5,3 +5,4 @@ https://github.com/lllleeenna/yamdb_final/actions/workflows/yamdb_workflow.yml/b
 - автоматический запуск тестов,
 - обновление образов на Docker Hub,
 - автоматический деплой на боевой сервер при пуше в главную ветку main.
+
