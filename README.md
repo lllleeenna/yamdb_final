@@ -55,3 +55,6 @@ sudo docker-compose exec web python manage.py createsuperuser
 ```
 sudo docker-compose exec web python manage.py collectstatic --no-input
 ```
+http://178.154.203.219/api/v1/
+http://178.154.203.219/admin/
+ 
