@@ -1,6 +1,6 @@
 # CI и CD проекта api_yamdb
-[![Build Status](https://github.com/lllleeenna/yamdb_final/workflows/yamdb_workflow.yml)](https://github.com/lllleeenna/yamdb_final/actions/workflows/yamdb_workflow.yml)
-https://img.shields.io/appveyor/build/lllleeenna/yamdb_final
+![Github CI/CD](https://img.shields.io/github/actions/workflow/status/lllleeenna/yamdb_final/yamdb_workflow.yml)
+
 Настройка для приложения Continuous Integration и Continuous Deployment:
 - автоматический запуск тестов,
 - обновление образов на Docker Hub,
