@@ -54,6 +54,7 @@ jobs:
           username: ${{ secrets.USER }}
           key: ${{ secrets.SSH_KEY }}
           script: |
+            sudo systemctl stop nginx
             sudo docker-compose down -v
             sudo docker image rm lllleeenna/api_yamdb-1_web:latest
             sudo rm .env

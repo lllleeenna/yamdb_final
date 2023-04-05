@@ -1,5 +1,5 @@
 # CI и CD проекта api_yamdb
-![Github CI/CD](https://github.com/lllleeenna/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+[![Github CI/CD](https://github.com/lllleeenna/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/lllleeenna/yamdb_final/actions/)
 
 Настройка для приложения Continuous Integration и Continuous Deployment:
 ### Workflow
